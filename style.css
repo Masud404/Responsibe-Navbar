@@ -17,15 +17,16 @@ nav{
 nav .search-box{
     display: flex;
     margin: auto 0;
-    height: 35px;
+    height: 55px;
     line-height: 35px;
+
 }
 nav .search-box input {
     border: 2px solid rgb(245, 238, 238);
     outline: none;
     height: 100%;
     padding: 0px 20px;
-    font-size: 20px;
+     font-size: 20px;
     width: 400px;
 }
 nav .search-box span{
@@ -34,7 +35,7 @@ nav .search-box span{
     background-color: rgb(62, 110, 243);
     height: 100%;
     width: 70px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     cursor: pointer;
     margin-left: 15px;
@@ -52,6 +53,7 @@ nav .icon{
 }
 
 /* menu-items */
+
 
 ul{
     margin: 0;
