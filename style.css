@@ -1,0 +1,92 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(243, 240, 240);
+}
+/* search input */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .search-box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+nav .search-box input {
+    border: 2px solid rgb(245, 238, 238);
+    outline: none;
+    height: 100%;
+    padding: 0px 20px;
+    font-size: 20px;
+    width: 400px;
+}
+nav .search-box span{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(62, 110, 243);
+    height: 100%;
+    width: 70px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+}
+nav .icon{
+    color: gray;
+    font-size: 20px;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#heart{
+    margin-right: 20px;
+}
+
+/* menu-items */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 20px;
+  
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+    display: block;
+    margin-left: 15px;
+}
+
+ul li a:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ul li ul li {
+    display: none;
+    background-color: rgb(231, 213, 213);
+    color: black;
+}
+ul li:hover ul li {
+    display: block;
+}
